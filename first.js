@@ -1,1 +1,1 @@
-console.log("Hello world");
+// how to changing the content of an element
