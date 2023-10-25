@@ -11,7 +11,20 @@ function consoleItem(item,index,arr){
     console.log(arr);
 }
 
-// Arrow function 
+// Arrow function printing items
 number.forEach((item,index,arr)=>{
     console.log(item);
+})
+
+// Arrow function to print the index of the item
+console.log("Printing index");
+console.log();
+number.forEach((item,index,arr)=>{
+    console.log(index);
+})
+
+console.log("printing array");
+console.log();
+number.forEach((item,index,arr)=>{
+    console.log(arr);
 })
