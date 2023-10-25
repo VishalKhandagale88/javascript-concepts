@@ -10,3 +10,8 @@ function consoleItem(item,index,arr){
     console.log("Array");
     console.log(arr);
 }
+
+// Arrow function 
+number.forEach((item,index,arr)=>{
+    console.log(item);
+})
