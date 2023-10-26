@@ -28,3 +28,15 @@ console.log();
 number.forEach((item,index,arr)=>{
     console.log(arr);
 })
+
+console.log("---------------------------------------------------------------------------------");
+
+
+console.log("map function");
+const n1 = [1,3,4,4,5,2,5,6];
+n1.map(double)
+
+function double(value,index,arr){
+    return value*2;
+}
+console.log(n1);
