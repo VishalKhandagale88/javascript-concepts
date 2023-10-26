@@ -8,3 +8,11 @@ function double( value,index,arr ){
     return value*2;
 }
 console.log(ans);
+
+// other method
+
+let ans1 =arr.map((value,item,arr)=>{
+    return value*2;
+})
+console.log(ans1);
+console.log("---------------------------------------------------------------------------------");
