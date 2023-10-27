@@ -63,3 +63,51 @@ const namesFirstLetter = names.map((value,index,arr)=>{
 })
 
 console.log(namesFirstLetter);
+
+
+// filer problems
+console.log("filter problmes");
+/*
+Input: ['apple', 'banana', 'cherry', 'date', 'fig']
+Output: ['apple', 'date']
+*/
+const fruits = ['apple', 'banana', 'cherry', 'date', 'fig'];
+wordLetter = fruits.filter((value)=>{
+    return value.length>=5;
+});
+console.log(wordLetter);
+console.log("---------------------------------------------------------------------------------");
+
+// filter positive numbers
+console.log("filter positive numbers");
+number1 = [-3, 5, -2, 8, 0, -7, 1];
+const positiveNums = number1.filter((value)=>{
+    return value>0;
+})
+console.log(positiveNums);
+console.log("---------------------------------------------------------------------------------");
+
+/*
+Problem 4: Filter Students Above a Certain Age
+Given an array of student objects with a 'age' property, filter the students who are above a certain age, e.g., 21.
+*/
+
+const students = [
+    {name:"Alice",age:19},
+    {
+        name:"Bob",
+        age:22
+    },
+    {
+        name:"Charlie",
+        age:25
+    },{
+        name:"David",
+        age:18
+    }
+]
+
+const studentAboveAge19 = students.filter((student)=>{
+    return  student.age>19;
+})
+console.log(studentAboveAge19);
