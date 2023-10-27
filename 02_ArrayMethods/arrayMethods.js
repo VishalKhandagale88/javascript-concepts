@@ -71,3 +71,50 @@ let creatANewProce = products.map(item =>({
 }))
 
 console.log(creatANewProce);
+console.log("---------------------------------------------------------------------------------");
+// Filter function
+const num2 = [1,2,3,4,5,6]
+
+// filter function will not change the array but create a new array
+const evenNumberrArray  = num2.filter(isEven);
+function isEven(value){
+    return value%2===0;
+}
+console.log("Even number of array");
+console.log(evenNumberrArray);
+
+const evenNum =  num2.filter((value)=>{
+    return value%2===0;
+})
+console.log();
+console.log("Even num");
+console.log(evenNum);
+console.log("---------------------------------------------------------------------------------");
+
+const people=[
+    {
+        name:"vishal",
+        age:22
+    },
+    {
+        name:"don",
+        age:24
+    },
+    {
+        name:"Neon",
+        age:27
+    },
+    {
+        name:"while",
+        age:20
+    },
+    {
+        name:"germ",
+        age:10
+    }
+]
+
+const ageAbove20 = people.filter((person)=>{
+    return person.age>21;
+})
+console.log(ageAbove20);
