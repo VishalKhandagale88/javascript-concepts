@@ -133,3 +133,15 @@ function sum (accumulator,value,index,arr){
 }
 console.log(total);
 // accumulator value increases always after addding
+
+// max value by using reduce method
+
+const max = number2.reduce(callback,-Infinity);
+function callback(accumulator,value){
+    if(accumulator>value){
+        return accumulator
+    }else{
+        return value;
+    }
+}
+console.log(max);
