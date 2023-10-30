@@ -118,3 +118,18 @@ const ageAbove20 = people.filter((person)=>{
     return person.age>21;
 })
 console.log(ageAbove20);
+
+console.log("---------------------------------------------------------------------------------");
+console.log("Reduce method");
+// 4 reduce method
+
+const number2 = [1,2,3,4,5];
+//const total = number2.reduce(callback,initalValue)
+// call back function recives 4 parameters accumulator, value, index, array
+
+const total = number2.reduce(sum,0);
+function sum (accumulator,value,index,arr){
+    return accumulator+value;
+}
+console.log(total);
+// accumulator value increases always after addding
