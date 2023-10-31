@@ -168,3 +168,11 @@ const totalValueStore = store.reduce((accumulator,item)=>accumulator+(
     item.value * item.count
 ),0)
 console.log(totalValueStore);
+console.log("---------------------------------------------------------------------------------");
+// 5 slice
+const number3 = [1,2,3,4,5]
+const numberSlice = number3.slice(1,4);
+// slice method returns the shallow copy of the array
+// the last index is exculded
+console.log(number3);
+console.log(numberSlice);
