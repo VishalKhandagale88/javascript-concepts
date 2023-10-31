@@ -173,6 +173,12 @@ console.log("-------------------------------------------------------------------
 const number3 = [1,2,3,4,5]
 const numberSlice = number3.slice(1,4);
 // slice method returns the shallow copy of the array
+// original array will not be changed
 // the last index is exculded
 console.log(number3);
 console.log(numberSlice);
+
+// --------------------------------------------------------------------------
+const participants = ['florin','Ivan','liam','jai','patrik'];
+const winners = participants.slice(0,3);
+console.log(winners);
