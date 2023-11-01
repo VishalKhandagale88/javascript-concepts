@@ -182,3 +182,13 @@ console.log(numberSlice);
 const participants = ['florin','Ivan','liam','jai','patrik'];
 const winners = participants.slice(0,3);
 console.log(winners);
+console.log("---------------------------------------------------------------------------------");
+// 6 splice
+// splice will change the existing array
+// splice method is used to remove the elements or replacing the elements in the existing array
+console.log("splice method");
+const number4 = [1,2,3,4,5];
+const deleted = number4.splice(2,3,6,7,78,8);
+console.log(number4);
+console.log(deleted);
+const number5 = [];
