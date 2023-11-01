@@ -186,9 +186,24 @@ console.log("-------------------------------------------------------------------
 // 6 splice
 // splice will change the existing array
 // splice method is used to remove the elements or replacing the elements in the existing array
-console.log("splice method");
+console.log("splice() method");
 const number4 = [1,2,3,4,5];
 const deleted = number4.splice(2,3,6,7,78,8);
 console.log(number4);
 console.log(deleted);
-const number5 = [];
+console.log("---------------------------------------------------------------------------------");
+console.log("Sort() method");
+const names = ["florin","liam","jai","ivan"]
+// sort method changes the existing elements in the array
+names.sort();
+console.log(names);
+
+const number5 = [74,18,10,5,84,24,105];
+
+number5.sort(compareFunction)
+function compareFunction(a,b){
+    // < 0 ..... a will come first
+    // > 0 ..... b will come first
+    // 0   ..... nothing will be changed
+    return a-b;
+}
