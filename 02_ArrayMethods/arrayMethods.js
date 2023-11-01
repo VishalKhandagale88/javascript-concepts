@@ -207,3 +207,22 @@ function compareFunction(a,b){
     // 0   ..... nothing will be changed
     return a-b;
 }
+
+const  products1 = [
+    {
+        name:"laptop",
+        price:1000
+    },
+    {
+        name:"desktop",
+        price:1500
+    },{
+        name:"phone",
+        price:500
+    }
+]
+products1.sort((a,b)=>{
+    return a.price - b.price;
+});
+
+console.log(products1);
