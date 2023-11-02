@@ -226,3 +226,19 @@ products1.sort((a,b)=>{
 });
 
 console.log(products1);
+console.log("---------------------------------------------------------------------------------");
+console.log("Array concet method");
+// array concat method allows us to concat two or more arrays
+// and new array will be returned
+const arr1 = [1,2,3];
+const arr2 = [4,5,6];
+const arr3 = arr1.concat(arr2);
+console.log(arr3);
+
+console.log("---------------------------------------------------------------------------------");
+// adding more than one array
+// concat method will create shallow copy of array
+const arr4 = [7,8,9];
+const arr5 = arr1.concat(arr2,arr4);
+console.log(arr5);
+console.log("---------------------------------------------------------------------------------");
