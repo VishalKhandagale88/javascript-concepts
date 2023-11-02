@@ -242,3 +242,16 @@ const arr4 = [7,8,9];
 const arr5 = arr1.concat(arr2,arr4);
 console.log(arr5);
 console.log("---------------------------------------------------------------------------------");
+console.log("fill method");
+// we can fill all the elements in the array with that particular parameter which is passed in array
+
+const arr6 = [2,3,4,5];
+arr6.fill(0);
+console.log(arr6);
+// fill(number_to_be_filled,from_index,till_index)
+// fill method will modify the existing array
+
+const arr7 = [4,5,6,7,8,9,1,2];
+arr7.fill(0,3,7);
+console.log(arr7);
+console.log("---------------------------------------------------------------------------------");
