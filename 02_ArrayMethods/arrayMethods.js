@@ -266,4 +266,8 @@ console.log("-------------------------------------------------------------------
 // join(seperator) method 
 const countries = ["India","USA","England"]
 const countriesResult = countries.join(" ");
+// in join method we can give any seperator
+const countriesResult1 = countries.join("-")
+console.log(countriesResult1);
 console.log(countriesResult);
+console.log("---------------------------------------------------------------------------------");
