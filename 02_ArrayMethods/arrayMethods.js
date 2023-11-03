@@ -257,7 +257,13 @@ console.log(arr7);
 console.log("---------------------------------------------------------------------------------");
 // 10
 // includes
+// returns true or false
 const names1 =["Florin",'ivan','liam'];
 const result =  names1.includes("ivan");
 console.log(result);
 console.log("---------------------------------------------------------------------------------");
+// 11 
+// join(seperator) method 
+const countries = ["India","USA","England"]
+const countriesResult = countries.join(" ");
+console.log(countriesResult);
