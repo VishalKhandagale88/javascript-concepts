@@ -255,3 +255,9 @@ const arr7 = [4,5,6,7,8,9,1,2];
 arr7.fill(0,3,7);
 console.log(arr7);
 console.log("---------------------------------------------------------------------------------");
+// 10
+// includes
+const names1 =["Florin",'ivan','liam'];
+const result =  names1.includes("ivan");
+console.log(result);
+console.log("---------------------------------------------------------------------------------");
