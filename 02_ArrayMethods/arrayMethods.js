@@ -277,3 +277,8 @@ console.log("-------------------------------------------------------------------
 const number6 = [1,2,3,4,5];
 number6.reverse();
 console.log(number6);
+console.log("---------------------------------------------------------------------------------");
+
+const string1 = 'coding is fun';
+const reverseString = string1.split('').reverse().join('');
+console.log(reverseString);
