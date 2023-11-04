@@ -271,3 +271,9 @@ const countriesResult1 = countries.join("-")
 console.log(countriesResult1);
 console.log(countriesResult);
 console.log("---------------------------------------------------------------------------------");
+//12
+// reverse() method
+// reverse() method will reverse the chnage the existing array
+const number6 = [1,2,3,4,5];
+number6.reverse();
+console.log(number6);
