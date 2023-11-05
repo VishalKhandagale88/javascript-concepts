@@ -284,6 +284,16 @@ const reverseString = string1.split('').reverse().join('');
 console.log(reverseString);
 //13
 // push method
+// push method add elements in array 
+// changes the existing array
 const number7 = [12,23,4,4,5,5,6];
 number7.push(1,2,2,3,3);
 console.log(number7);
+console.log("---------------------------------------------------------------------------------");
+
+// 14
+// pop method
+// pop method will remove the last element from the array
+const number8  = [2,3,3,5,5,5];
+number8.pop();
+console.log(number8);
