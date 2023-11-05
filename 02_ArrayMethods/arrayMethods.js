@@ -282,3 +282,8 @@ console.log("-------------------------------------------------------------------
 const string1 = 'coding is fun';
 const reverseString = string1.split('').reverse().join('');
 console.log(reverseString);
+//13
+// push method
+const number7 = [12,23,4,4,5,5,6];
+number7.push(1,2,2,3,3);
+console.log(number7);
