@@ -305,3 +305,11 @@ console.log("-------------------------------------------------------------------
 const number9 = [2,3,3,5,5,5,];
 number9.unshift(-1);
 console.log(number9);
+console.log("---------------------------------------------------------------------------------");
+// 16 
+// shift method
+// this will remove the element at the stating 
+const number10 = [0,2,3,4,5,5,6,];
+number10.shift();
+console.log(number10);
+console.log("---------------------------------------------------------------------------------");
