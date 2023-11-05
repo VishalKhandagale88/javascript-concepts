@@ -297,3 +297,11 @@ console.log("-------------------------------------------------------------------
 const number8  = [2,3,3,5,5,5];
 number8.pop();
 console.log(number8);
+
+console.log("---------------------------------------------------------------------------------");
+// 15 
+// unshif method
+// this method will add element at the starting of the array
+const number9 = [2,3,3,5,5,5,];
+number9.unshift(-1);
+console.log(number9);
