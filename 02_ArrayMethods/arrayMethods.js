@@ -337,3 +337,25 @@ function greaterThanFour(item) {
     return item>4;
 }
 console.log(number11Res);
+console.log("---------------------------------------------------------------------------------");
+const person1 = [{
+    name:'vishal',
+    age:23
+},{
+    name:'reshma',
+    age:22
+},{
+    name:'leo',
+    age:20
+},{
+    name:'das',
+    age:19
+}
+]
+
+const personAge = person1.some(ageOfPerson);
+
+function ageOfPerson(person1) {
+    return person1.age>=20;
+}
+console.log(personAge);
