@@ -313,3 +313,8 @@ const number10 = [0,2,3,4,5,5,6,];
 number10.shift();
 console.log(number10);
 console.log("---------------------------------------------------------------------------------");
+// 17
+// indexOf method 
+const names2 = ['florin','ivan','liam'];
+const idx =names2.indexOf('ivan');
+console.log(idx);
