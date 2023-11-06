@@ -323,3 +323,17 @@ console.log("lastIndexOf()");
 const names3 = ['florin','ivan','liam','jay','florin']
 const lastIndex = names3.lastIndexOf('florin');
 console.log(lastIndex);
+console.log("---------------------------------------------------------------------------------");
+// 18 
+// every() method
+// study later
+console.log("every() method study later");
+console.log("---------------------------------------------------------------------------------");
+//19 
+// some() method
+const number11 = [1,2,3,4,5];
+const number11Res =  number11.some(greaterThanFour)
+function greaterThanFour(item) {
+    return item>4;
+}
+console.log(number11Res);
