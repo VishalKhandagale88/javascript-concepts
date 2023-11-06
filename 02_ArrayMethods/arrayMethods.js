@@ -318,3 +318,8 @@ console.log("-------------------------------------------------------------------
 const names2 = ['florin','ivan','liam'];
 const idx =names2.indexOf('ivan');
 console.log(idx);
+console.log("---------------------------------------------------------------------------------");
+console.log("lastIndexOf()");
+const names3 = ['florin','ivan','liam','jay','florin']
+const lastIndex = names3.lastIndexOf('florin');
+console.log(lastIndex);
