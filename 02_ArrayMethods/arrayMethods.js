@@ -392,3 +392,11 @@ function findSinzo(item) {
 }
 console.log(sinzo);
 console.log("---------------------------------------------------------------------------------");
+//21 findIndex() method
+const number12 = [1,2,3,4,5];
+const number12Res = number12.findIndex(findThree);
+function findThree(value) {
+    return value === 3;
+}
+console.log(number12Res);
+console.log("---------------------------------------------------------------------------------");
