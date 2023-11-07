@@ -359,3 +359,36 @@ function ageOfPerson(person1) {
     return person1.age>=20;
 }
 console.log(personAge);
+
+console.log("---------------------------------------------------------------------------------");
+// 20
+const names4 = ['vishal','liam','muskan','ali','mach'];
+const names4Res = names4.find(findVishal);
+
+function findVishal(item) {
+    return item === "vishal";
+}
+console.log(names4Res);
+
+const person2 = [
+    {
+        name:"vishal",
+        age : 23
+    },{
+        name:"lohit",
+        age:22
+    },{
+        name:"sinzo",
+        age:20
+    },{
+        name:"lamda",
+        age:25
+    }
+]
+
+const sinzo =  person2.find(findSinzo);
+function findSinzo(item) {
+    return item.name === "sinzo"
+}
+console.log(sinzo);
+console.log("---------------------------------------------------------------------------------");
