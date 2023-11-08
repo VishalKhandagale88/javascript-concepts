@@ -3,12 +3,7 @@ const number = [1,2,3,4,5];
 number.forEach(consoleItem);
 
 function consoleItem(item,index,arr){
-    console.log("Item");
-    console.log(item);
-    console.log("Index");
-    console.log(index);
-    console.log("Array");
-    console.log(arr);
+    console.log(`${index}: ${item}`);
 }
 
 // Arrow function printing items
@@ -36,13 +31,17 @@ console.log("-------------------------------------------------------------------
 console.log("map function");
 const n1 = [1,3,4,4,5,2,5,6];
 let mapArray = n1.map(double)
-
 function double(value,index,arr){
     return value*2;
 }
 console.log(mapArray);
 
 //
+
+const mapResult = n1.map((value,index,arr)=>{
+    return value*2;
+})
+console.log(mapResult);
 
 const products = [
     {
@@ -51,26 +50,25 @@ const products = [
         count : 5
     },
     {
-        name:'desktop',
+        name:'TV',
         price:5000,
-        count : 4
+        count : 7
     },
     {
         name:'phone',
         price:2000,
-        count : 3
+        count : 9
     }
 ]
 
-let productOfPrice=products.map(item => item.price * item.count)
-
+let productPriceArray=products.map(product => product.price * product.count)
+console.log(productPriceArray);
 // how to add new attribute and value with the existing array
-let creatANewProce = products.map(item =>({
+let newProductArray = products.map(item =>({
     name: item.name,
     totalPrice:item.count*item.price
 }))
-
-console.log(creatANewProce);
+console.log(newProductArray);
 console.log("---------------------------------------------------------------------------------");
 // Filter function
 const num2 = [1,2,3,4,5,6]
@@ -80,12 +78,16 @@ const evenNumberrArray  = num2.filter(isEven);
 function isEven(value){
     return value%2===0;
 }
-console.log("Even number of array");
 console.log(evenNumberrArray);
 
 const evenNum =  num2.filter((value)=>{
     return value%2===0;
 })
+const oddNumberArray = num2.filter(number=>{
+    return number%2!=0;
+})
+console.log(oddNumberArray);
+
 console.log();
 console.log("Even num");
 console.log(evenNum);
@@ -400,3 +402,23 @@ function findThree(value) {
 }
 console.log(number12Res);
 console.log("---------------------------------------------------------------------------------");
+//22 from()
+// creates a shallow copy of of array from array or iterable object
+const strNumber = '1234567890';
+const strNumberResult = Array.from(strNumber);
+// the above result will return the array of string
+console.log(strNumberResult);
+// to convert the string into actual number
+const stringNumberResult1 = Array.from(strNumber,mapFunction);
+function mapFunction(value){
+    return Number(value);
+}
+console.log("number array");
+console.log(stringNumberResult1);
+// using map function
+
+const stringNumberMapArrowFunction = Array.from(strNumber,value=>{
+    return Number(value);
+})
+console.log("String number map arrow function");
+console.log(stringNumberMapArrowFunction);
