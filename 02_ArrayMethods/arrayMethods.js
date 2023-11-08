@@ -422,3 +422,12 @@ const stringNumberMapArrowFunction = Array.from(strNumber,value=>{
 })
 console.log("String number map arrow function");
 console.log(stringNumberMapArrowFunction);
+
+// removing duplicate values form the array 
+const number13 = [1,2,3,3,3,2,2,4,5,6,5,5,3,8];
+const uniqueValues = new  Set(number13);
+console.log(uniqueValues);
+const uniqueValuesArray = Array.from(new Set(number13));
+console.log('Unique value array');
+console.log(uniqueValuesArray);
+// the same thing we can also do with strings as well
