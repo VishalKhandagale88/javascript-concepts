@@ -431,3 +431,12 @@ const uniqueValuesArray = Array.from(new Set(number13));
 console.log('Unique value array');
 console.log(uniqueValuesArray);
 // the same thing we can also do with strings as well
+console.log("---------------------------------------------------------------------------------");
+// 23 isArray() function
+// isArray method id used to find whether the varible is type of Array or not
+const name5 = ['vishal','tom','jam','jim','oswald'];
+const string2 = "vishal";
+const number14 = 15;
+console.log(`name5 varible is of array type :  ${Array.isArray(name5)}`);
+console.log(`string2 varible is of array type : ${Array.isArray(string2)}`);
+console.log(`number14 varible is of array type : ${Array.isArray(number14)}`);
