@@ -99,19 +99,19 @@ const people=[
         age:22
     },
     {
-        name:"don",
+        name:"Tim",
         age:24
     },
     {
-        name:"Neon",
+        name:"Stive",
         age:27
     },
     {
-        name:"while",
+        name:"Mark",
         age:20
     },
     {
-        name:"germ",
+        name:"Elon",
         age:10
     }
 ]
