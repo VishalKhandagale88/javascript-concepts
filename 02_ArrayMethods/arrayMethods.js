@@ -181,7 +181,7 @@ console.log(number3);
 console.log(numberSlice);
 
 // --------------------------------------------------------------------------
-const participants = ['florin','Ivan','liam','jai','patrik'];
+const participants = ['vishal','tim','jobs','jai','mark'];
 const winners = participants.slice(0,3);
 console.log(winners);
 console.log("---------------------------------------------------------------------------------");
