@@ -23,3 +23,23 @@ console.log("num1 is of type : ",num1); // this will give 0 as converted value
 // 
 // 2 . Reference type (or) non primitive data types
 // Arrays , Object , functions
+// javascript is a dynamically types language
+const score = 10;
+const decimalNum = 10.2;
+const isLoggedIn = false;
+const outSideTemp =  null;
+
+// array
+const names = ["vishal","lokesh","raja","lohith"];
+// object  
+const myObj  = {
+    name:"vishal",
+    job :"Full stack developer"
+}
+
+// function 
+// we can store function in a variable in javascript
+const myFun =  function() {
+    console.log("Hello world");
+}
+
