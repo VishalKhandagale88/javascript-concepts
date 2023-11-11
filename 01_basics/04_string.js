@@ -9,4 +9,10 @@ console.log(myName[0]);
 console.log(myName.length);
 console.log(myName.toUpperCase());
 console.log(myName.charAt(2));
-console.log(myName.indexOf(i));
+console.log(myName.indexOf('i'));
+
+const newString = "   vishal   ";
+console.log(newString.trim());
+
+const url = "http://vishal.com/vishal%20khandagale"
+console.log(url.replace('%20','-'));
