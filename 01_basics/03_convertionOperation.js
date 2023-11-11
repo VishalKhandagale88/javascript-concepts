@@ -47,7 +47,7 @@ const myFun =  function() {
 
 
 //-----------------------------------------------------------------------------------------
-// video 10 chai aur code
+//10 chai aur code
 
 // Two types of memories 
 // 1 .  stack memory 
