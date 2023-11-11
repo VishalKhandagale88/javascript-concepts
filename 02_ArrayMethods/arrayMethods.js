@@ -209,6 +209,8 @@ function compareFunction(a,b){
     // 0   ..... nothing will be changed
     return a-b;
 }
+console.log("Number 5  is here");
+console.log(number5);
 
 const  products1 = [
     {
@@ -236,7 +238,6 @@ const arr1 = [1,2,3];
 const arr2 = [4,5,6];
 const arr3 = arr1.concat(arr2);
 console.log(arr3);
-
 console.log("---------------------------------------------------------------------------------");
 // adding more than one array
 // concat method will create shallow copy of array

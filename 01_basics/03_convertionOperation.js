@@ -13,11 +13,13 @@ console.log("num varible is of type : ", typeof num); // this will return NaN
 
 let num1 = Number(null);
 console.log("num1 is of type : ",num1); // this will give 0 as converted value
+//---------------------------------------------------------------------------------
 // 7 and 8 video s content need to understand  from chai aur javascript
+//-------------------------------------------------------------------------------
 
 // there are two types of data typs
-// 1 . Primitive this are call by value means we will get the value that is accosiated
-// with this data 
+// 1 . Primitive this are call by value means we will get the value that is associated
+// with that varibale 
 // 7 primitive types : String, Number, Boolean , null , nudefined, symbol, BigInt
 // symbol is used to make value unique
 // 
@@ -43,3 +45,28 @@ const myFun =  function() {
     console.log("Hello world");
 }
 
+
+//-----------------------------------------------------------------------------------------
+// video 10 chai aur code
+
+// Two types of memories 
+// 1 .  stack memory 
+// stack memory used in all primitive types
+let name = "vishal"
+let anotherName = name // here we are geeting the copy of the value
+anotherName = "khandagale" 
+console.log(name);
+console.log(anotherName);
+
+// 2 . Heap memory (Non-primitive) --> we will get the referce of the original value
+// if we change any thing original value will get changed
+ 
+const user1 = {
+    name:"vishal",
+    age:22
+}
+
+const user2 = user1; // here we will get the referece of the user1 object we will not get the copy of  user1 object
+user2.age = 20; // so this will change the value in both the variables
+console.log(user1.age);
+console.log(user2.age);
