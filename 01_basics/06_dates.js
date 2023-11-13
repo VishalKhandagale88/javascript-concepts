@@ -12,3 +12,11 @@ console.log(createdDate.toDateString());
 let date1 = new Date("01-14-20223");
 console.log(date1.toDateString());
 
+// time stamps
+let timeStamps = Date.now();
+console.log(timeStamps);
+console.log(date.getDate());
+let customizeDate = date.toLocaleDateString('default',{
+    weekday:"long" 
+})
+console.log(customizeDate);
