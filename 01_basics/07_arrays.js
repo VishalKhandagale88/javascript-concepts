@@ -14,3 +14,9 @@ const games = ["GTA vice city","MineCraft","League of legends","Fortnite","Porta
 
 names.push(games);
 console.log(names[4][1]);
+
+// spread operator
+// all elements will be spreaded in one array
+const sameNames = ["vishal","sam","mike","nikhil"];
+const spreadArray = [...sameNames,...games];
+console.log(spreadArray);
