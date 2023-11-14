@@ -13,4 +13,5 @@ const user = {
     isLoggedIn : true,
     lastLoggedIn :["Monday","Saturday"]
 }
-
+// how to access the object
+console.log(user["name"]); // this is most recommanded
