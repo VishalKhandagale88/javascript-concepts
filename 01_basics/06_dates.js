@@ -1,4 +1,5 @@
 // Dates
+// 13 chai aur code
 let date = new Date()
 console.log(date.toString());
 console.log(date.toDateString());
