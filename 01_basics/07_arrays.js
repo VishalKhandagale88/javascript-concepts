@@ -20,3 +20,7 @@ console.log(names[4][1]);
 const sameNames = ["vishal","sam","mike","nikhil"];
 const spreadArray = [...sameNames,...games];
 console.log(spreadArray);
+
+// spreading an array
+const array1 = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+console.log(array1.flat(Infinity));
