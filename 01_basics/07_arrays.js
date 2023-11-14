@@ -9,3 +9,8 @@ console.log(array);
 console.log(names);
 
 // Array methods
+// All array methods are coverd in 02_ArrayMethods folder
+const games = ["GTA vice city","MineCraft","League of legends","Fortnite","Portal","Temple Run 2"]
+
+names.push(games);
+console.log(names[4][1]);
