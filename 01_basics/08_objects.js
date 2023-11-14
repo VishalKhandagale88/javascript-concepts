@@ -7,5 +7,10 @@
 
 const user = {
     name:"vishal",
-    age:20
+    age:20,
+    location:"Mumbai",
+    email:"Vishal@gmail.com",
+    isLoggedIn : true,
+    lastLoggedIn :["Monday","Saturday"]
 }
+
