@@ -15,3 +15,8 @@ const user = {
 }
 // how to access the object
 console.log(user["name"]); // this is most recommanded
+
+// freeze method from Object class will freeze the object and not let the updates that we made in object to propogate in object
+Object.freeze(user); 
+user.name="Vishal khandagale"
+console.log(user);
