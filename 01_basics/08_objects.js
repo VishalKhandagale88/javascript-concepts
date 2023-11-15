@@ -20,3 +20,18 @@ console.log(user["name"]); // this is most recommanded
 Object.freeze(user); 
 user.name="Vishal khandagale"
 console.log(user);
+
+
+
+const userOne = {
+    name:"vishal khandagale",
+    age:23,
+    location:"Mumbai Maharastra",
+    email:"Vishal.khandagale@gmail.com",
+    isLoggedIn : true,
+    lastLoggedIn :["Monday","Sunday"]
+}
+userOne.greet = function greetUser(){
+    console.log(`Hello ${this.name}`);
+}
+console.log(userOne.greet());
