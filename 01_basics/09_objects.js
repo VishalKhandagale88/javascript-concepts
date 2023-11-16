@@ -21,3 +21,6 @@ const obj2 ={
 }
 const obj3 = Object.assign({},obj1,obj2);
 console.log(obj3);
+
+const obj4 = {...obj1,...obj2} // this is combining object using spread operator
+console.log(obj4);
