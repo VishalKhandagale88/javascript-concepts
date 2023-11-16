@@ -24,3 +24,6 @@ console.log(obj3);
 
 const obj4 = {...obj1,...obj2} // this is combining object using spread operator
 console.log(obj4);
+console.log(Object.keys(obj1)); // this is give all the keys and return array
+console.log(Object.values(obj1)); // this is give all the values and return array
+console.log(Object.entries(obj1)) // this will return key value pair in form of array
